@@ -1,0 +1,56 @@
+.info-cvv-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 154.5px;
+    height: 74px;
+}
+
+.info-cvv-input-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    width: 154.5px;
+    height: 74px;
+}
+
+.info-cvv-input-content > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #141C24;
+}
+
+.info-cvv-input-content > input {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 8px 12px 12px;
+    gap: 8px;
+
+    width: 154.5px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border: 1px solid #CED2DA;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #637083;
+}

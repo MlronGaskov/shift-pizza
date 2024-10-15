@@ -1,0 +1,47 @@
+.header-nav-link {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 150px;
+  height: 30px;
+}
+
+.header-nav-link:hover {
+  border-bottom: 1px solid #000;
+}
+
+@media (hover: none) {
+  .header-nav-link {
+    text-decoration: none;
+  }
+}
+
+.header-nav-link-logo {
+  width: 30px;
+  height: 30px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header-nav-link-text {
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #344051;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

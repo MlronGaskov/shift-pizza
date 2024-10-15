@@ -1,0 +1,20 @@
+export interface PizzaData {
+    allergens: Array<string>,
+    calories: 320,
+    carbohydrates: string,
+    description: string,
+    doughs: Array<{name: string, price: number}>,
+    id: string,
+    img: string,
+    ingredients: Array<{name: string, cost: number, img: string}>,
+    isGlutenFree: boolean,
+    isHit: boolean,
+    isNew: boolean,
+    isVegetarian: boolean,
+    name: string,
+    protein: string,
+    sizes: Array<{name: string, price: number}>,
+    soium: string,
+    toppings: Array<{name: string, cost: number, img: string}>,
+    totalFat: string
+}

@@ -1,0 +1,307 @@
+.pop-up {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    width: 64%;
+    height: 90%;
+    left: 18%;
+    top: 5%;
+    z-index: 3;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.pop-up-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 16px 24px 0px;
+    gap: 10px;
+
+    width: 100%;
+    height: 60px;
+
+    background: #FFFFFF;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.pop-up-cross {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 40px;
+    height: 40px;
+}
+
+.pop-up-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 80px 88px;
+    isolation: isolate;
+
+    width: 100%;
+    height: 95%;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.pop-up-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.pop-up-content > img {
+    width: 40%;
+    aspect-ratio: 1 / 1;
+}
+
+.pop-up-pizza-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 55%;
+    height: 100%;
+}
+
+.pop-up-scroll {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.pop-up-add-to-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 8px;
+
+    width: 98%;
+    height: 56px;
+
+
+    box-shadow: none;
+    border: none;
+    background: #F4511E;
+    border-radius: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.pop-up-size-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0 0 50px 0;
+
+    width: 100%;
+}
+
+.child-frame1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 100%;
+}
+
+.child-frame1-text > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+
+    color: #292929;
+}
+
+.child-frame1-text2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535353;
+}
+
+.child-frame1-text3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #535353;
+}
+
+.size-selection-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 98%;
+}
+
+.size-selection-tabs-common-space {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 2px;
+
+    width: 100%;
+    height: 50px;
+
+    background: #F3F4F7;
+    border-radius: 16px;
+}
+
+.pop-up-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 24px;
+
+    width: 33%;
+    height: 45px;
+
+    border-radius: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #141C24;
+}
+
+.chosen-tab {
+    background: #FFFFFF;
+}
+
+.pop-up-toppings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    width: 100%;
+}
+
+.pop-up-toppings > p {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 0px 16px;
+    gap: 10px;
+
+    width: 100%;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #292929;
+}
+
+.toppings-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 8px 10px 40px;
+    gap: 11px;
+
+    flex: 1;
+
+    width: 98%;
+}
+
+.topping-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    gap: 12px;
+
+    min-width: 120px;
+    max-width: 150px;
+
+    aspect-ratio: 2 / 3;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(26, 26, 30, 0.15);
+    border-radius: 16px;
+    flex: 1;
+}
+
+.added-topping {
+    background: #F3F4F7;
+}
+
+.topping-card > img {
+    width: 95%;
+    aspect-ratio: 1 / 1;
+}
+
+.topping-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 100%;
+}
+
+.topping-card-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #292929;
+}
+
+.topping-card-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #292929;
+}

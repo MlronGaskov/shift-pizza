@@ -1,0 +1,113 @@
+.pizza-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  max-width: 400px;
+  min-width: 350px;
+  flex: 1;
+}
+
+.pizza-card-img {
+  min-width: 250px;
+  min-height: 250px;
+  aspect-ratio: 1 / 1;
+  width: 80%;
+  max-width: 300px;
+}
+
+.pizza-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  
+  width: 100%;
+}
+
+.pizza-card-content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 100%;
+  height: 104px;
+}
+
+.pizza-card-content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 100%;
+  height: 104px;
+}
+
+.pizza-card-name {
+  height: 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #292929;
+}
+
+.pizza-card-description {
+  width: 100%;
+  height: 72px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+  color: #535353;
+}
+
+.pizza-card-price {
+  height: 24px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #292929;
+}
+
+.pizza-card-select-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+
+  width: 100%;
+  height: 56px;
+
+  box-shadow: none;
+  border: none;
+  background-color: #F4511E;
+  border-radius: 16px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
